@@ -1,7 +1,7 @@
 # startpage
 
 ``` diff
-- The project is no longer maintained here.
+- The project is rarely maintained and updated here.
 + It is moved to https://codeberg.org/whoisYoges/startpage.
 + All the updates and new projects are
 + available at https://codeberg.org/whoisYoges.
