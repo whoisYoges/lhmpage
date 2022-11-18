@@ -1,104 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <title>Home Page</title>
-        <link href="./styles/style.css" rel="stylesheet" type="text/css">
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
 <body>
-<div class="container">
-    <div class="prompt">
-        ~
-        <span> λ </span>
-        tree
-    </div>
-    <div class="row">
-        <div class="column">
-            <div class="tree">
-                <h1>.</h1>
-                <ul>
-                    <li>
-                        <h1>General...</h1>
-                            <ul>
-                                <li>
-                                    <a href="https://codeberg.org"> CodeBerg </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com"> Twitter </a>
-                                </li>
-                                <li>
-                                    <a href="https://instagram.com"> Instagram </a>
-                                </li>
-                                <li>
-                                    <a href="https://facebook.com"> Facebook </a>
-                                </li>
-                                <li>
-                                    <a href="https://reddit.com"> Reddit </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com"> Github </a>
-                                </li>
-                            </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="column">
-            <div class="tree">
-                <h1>.</h1>
+    <div class="container">
+        <div class="prompt">~ <span>λ </span>Main </div>
+        <div class="row">
+            <div class="column">
+                <div class="tree">
                     <ul>
-                        <li>
-                            <h1>More...</h1>
-                            <ul>
-                                <li>
-                                    <a href="https://youtube.com"> YouTube </a>
-                                </li>
-                                <li>
-                                    <a href="https://linkedin.com"> LinkedIn </a>
-                                </li>
-                                <li>
-                                    <a href="https://wiki.archlinux.org"> Arch Wiki </a>
-                                </li>
-                                <li>
-                                    <a href="https://archlinux.org/packages/?sort=&q="> Arch Packages </a>
-                                </li>
-                                <li>
-                                    <a href="https://aur.archlinux.org/packages?O=0&K="> Aur Packages </a>
-                                </li>
-                                <li>
-                                    <a href="https://temporarymail.com"> Temp Mail </a>
-                                </li>
-                            </ul>
-                        </li>
+                        <li><a href="https://codeberg.org">CodeBerg </a></li>
+                        <li><a href="https://twitter.com">Twitter </a></li>
+                        <li><a href="https://instagram.com">Instagram </a></li>
+                        <li><a href="https://facebook.com">Facebook </a></li>
+                        <li><a href="https://reddit.com">Reddit </a></li>
+                        <li><a href="https://github.com">Github </a></li>
                     </ul>
+                </div>
+            </div>
+            <div class="column">
+                <div class="tree">
+                    <ul>
+                        <li><a href="https://youtube.com">YouTube </a></li>
+                        <li><a href="https://linkedin.com">LinkedIn </a></li>
+                        <li><a href="https://wiki.archlinux.org">Arch Wiki </a></li>
+                        <li><a href="https://archlinux.org/packages/?sort=&q=">Arch Packages </a></li>
+                        <li><a href="https://aur.archlinux.org/packages?O=0&K=">Aur Packages </a></li>
+                        <li><a href="https://temporarymail.com">Temp Mail </a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+        <div class="prompt">~ <span>λ </span>Search </div>
+        <div class="searchengines">
+            <form action="https://duckduckgo.com/" method="GET">
+                <h1>DuckDuckGo:</h1> <input autofocus="autofocus" name="q" type="text" placeholder="Search Duckduckgo">
+            </form>
+            <form action="https://piped.kavin.rocks/results" method="GET">
+                <h1>YT [Piped]:</h1> <input name="search_query" type="text" placeholder="Search YouTube Piped ">
+            </form>
+            <form action="https://wiki.archlinux.org/index.php" method="GET">
+                <h1>Arch Wiki:</h1> <input name="search" type="text" placeholder="Search Arch Wiki">
+            </form>
+            <form action="https://en.wikipedia.org/wiki/Special:Search" method="GET">
+                <h1>Wikipedia:</h1> <input name="search" type="text" placeholder="Search Wikipedia">
+            </form>
+        </div>
     </div>
-    <div class="prompt">
-        ~
-        <span> λ </span>
-        Search Engines
-    </div>
-    <div class="searchengines">
-        <form action="https://duckduckgo.com/" method="GET">
-            <h1>DuckDuckGo:</h1>
-            <input autofocus="autofocus" name="q" type="text" placeholder="Search Duckduckgo">
-        </form>
-        <form action="https://piped.kavin.rocks/results" method="GET">
-            <h1>YT [Piped]:</h1>
-            <input name="search_query" type="text" placeholder="Search YouTube Piped ">
-        </form>
-        <form action="https://wiki.archlinux.org/index.php" method="GET">
-            <h1>Arch Wiki:</h1>
-            <input name="search" type="text" placeholder="Search Arch Wiki">
-        </form>
-        <form action="https://en.wikipedia.org/wiki/Special:Search" method="GET">
-            <h1>Wikipedia:</h1>
-            <input name="search" type="text" placeholder="Search Wikipedia">
-        </form>
-    </div>
-</div>
 </body>
+
 </html>
