@@ -1,22 +1,17 @@
-# startpage
+# lhmpage
+The best homepage/startpage for a browser in the world.  
 
-``` diff
-- The project is rarely maintained and updated here.
-+ It is moved to https://codeberg.org/whoisYoges/startpage.
-+ All the updates and new projects are
-+ available at https://codeberg.org/whoisYoges.
-```
+startpage is a **custom start page/home page/new tab page** inspired and based on [StartTree](https://github.com/Paul-Houser/StartTree).
 
-A custom **start page/home page/new tab page** for your browser.
-
-startpage is a **static start page** inspired and based on [StartTree](https://github.com/Paul-Houser/StartTree).
-
-See how it looks like at https://search.yogeshlamichhane.com.np.
+Live at <https://search.yogeshlamichhane.com.np>.
 
 ## Set Up and Configuration
-- change your browser's home page, new tab page and startup page to https://search.yogeshlamichhane.com.np
+- change your browser's home page, new tab page and startup page to <https://search.yogeshlamichhane.com.np>.
 
-- ***For chromium based browsers like chrome and brave:***  Install an open source extension [chrome-new-tab-url](https://github.com/smblott-github/chrome-new-tab-url)  and add `https://search.yogeshlamichhane.com.np` in it's target url.
-- ***For Firefox and firefox based browsers like librewolf:***  Install an open source extension [newtaboverride](https://github.com/cadeyrn/newtaboverride) and add `https://search.yogeshlamichhane.com.np` as custom url in it's settings.
+- ***For chromium based browsers like chrome and brave:***  
+Install an open source extension [NewTab-Redirect](https://github.com/jimschubert/NewTab-Redirect)  and add `https://search.yogeshlamichhane.com.np` in it's redirect url field and save it.
+
+- ***For Firefox and firefox based browsers like librewolf:***  
+Install an open source extension [newtaboverride](https://github.com/cadeyrn/newtaboverride) and add `https://search.yogeshlamichhane.com.np` as custom url in it's settings. Don't forget to enable the option *Set focus to the web page instead of the address bar*.
 
 ![Preview of startpage](preview.png)
